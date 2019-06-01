@@ -10,8 +10,8 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @RestController
 public class DemoController implements WebMvcConfigurer {
 	
-	@RequestMapping("/welcome")
+	@RequestMapping("/")
     public String sayHello() {
-        return "Hello From Spring Boot App using harsh";
+        return "Latest commit from eclipse in new project";
     }
 }
