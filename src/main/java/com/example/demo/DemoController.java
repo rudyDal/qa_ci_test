@@ -12,6 +12,7 @@ public class DemoController implements WebMvcConfigurer {
 	
 	@RequestMapping("/")
     public String sayHello() {
-        return "Latest commit from eclipse in new project";
+        return "Heroku, please work";
     }
 }
+	
