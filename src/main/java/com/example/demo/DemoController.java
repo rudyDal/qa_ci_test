@@ -12,7 +12,7 @@ public class DemoController implements WebMvcConfigurer {
 	
 	@RequestMapping("/")
     public String sayHello() {
-        return "Heroku, please work";
+        return "Heroku, last check";
     }
 }
 	
