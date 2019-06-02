@@ -16,4 +16,3 @@ public class DemoController implements WebMvcConfigurer {
         return "index.html";
     }
 }
-	
