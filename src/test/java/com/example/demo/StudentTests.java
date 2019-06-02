@@ -20,6 +20,6 @@ public class StudentTests {
 	@Test
 	public void getStudentEmailTest() {
 		Student s2 = new Student("tony", "tony123@dal.ca");
-		assertEquals("getStudentEmailTest", "tony@dal.ca", s2.getEmail());
+		assertEquals("getStudentEmailTest", "tony123@dal.ca", s2.getEmail());
 	}
 }
