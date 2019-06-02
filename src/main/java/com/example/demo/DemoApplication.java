@@ -8,7 +8,6 @@ public class DemoApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
-		// Latest commit from eclipse in new project
 	}
 
 }
